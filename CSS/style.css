@@ -25,7 +25,7 @@
 }
 
 .recipe-container .recipe-card .recipe-img:hover img,
-#cooking .cooking-container .cooking-card .cooking-img:hover img {
+#main-cooking .cooking-container .cooking-card .cooking-img:hover img {
     transform: scale(1.02);
     cursor: pointer;
 }
@@ -67,7 +67,7 @@ header .nav a {
 
 /* Featured-Recipe */
 
-#featured-recipe {
+#main-featured-recipe {
     margin: 35px 75px;
     border-radius: 50px;
     display: flex;
@@ -76,12 +76,12 @@ header .nav a {
 
 }
 
-#featured-recipe .left {
+#main-featured-recipe .left {
     width: 50%;
     padding: 50px;
 }
 
-#featured-recipe .left .hot {
+#main-featured-recipe .left .hot {
     display: flex;
     background: #FFFFFF;
     padding: 10px 15px;
@@ -92,19 +92,19 @@ header .nav a {
     box-shadow: 10px 20px 40px 0px rgba(41, 64, 70, 0.1);
 }
 
-#featured-recipe .left .hot p {
+#main-featured-recipe .left .hot p {
     margin-left: 10px;
     font-size: 14px;
     font-weight: 600;
 }
 
-#featured-recipe .left h1 {
+#main-featured-recipe .left h1 {
     font-weight: 600;
     font-size: 64px;
     margin-top: 25px;
 }
 
-#featured-recipe .left #para {
+#main-featured-recipe .left #para {
     font-size: 16px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
@@ -113,13 +113,13 @@ header .nav a {
     line-height: 30px;
 }
 
-#featured-recipe .left .info-btn {
+#main-featured-recipe .left .info-btn {
     display: flex;
     align-items: center;
     margin-bottom: 110px;
 }
 
-#featured-recipe .left .info-btn .btn {
+#main-featured-recipe .left .info-btn .btn {
     display: flex;
     padding: 10px 15px;
     background: rgba(0, 0, 0, 0.05);
@@ -128,49 +128,49 @@ header .nav a {
     justify-content: center;
 }
 
-#featured-recipe .left .info-btn .btn-left {
+#main-featured-recipe .left .info-btn .btn-left {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-#featured-recipe .left .info-btn .btn-right {
+#main-featured-recipe .left .info-btn .btn-right {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-left: 15px;
 }
 
-#featured-recipe .left .info-btn .btn p {
+#main-featured-recipe .left .info-btn .btn p {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
     margin-left: 16px;
 }
 
-#featured-recipe .left .info-card {
+#main-featured-recipe .left .info-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#featured-recipe .left .info-card .author-card {
+#main-featured-recipe .left .info-card .author-card {
     display: flex;
     align-items: center;
 }
 
-#featured-recipe .left .info-card .author-card img {
+#main-featured-recipe .left .info-card .author-card img {
     margin-right: 18px;
 }
 
-#featured-recipe .left .info-card .author-card .author {
+#main-featured-recipe .left .info-card .author-card .author {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-#featured-recipe .left .info-card .author-card .date {
+#main-featured-recipe .left .info-card .author-card .date {
     font-size: 14px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.6);
 }
 
-#featured-recipe .left .info-card .view-btn {
+#main-featured-recipe .left .info-card .view-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,20 +179,20 @@ header .nav a {
     border-radius: 17px;
 }
 
-#featured-recipe .left .info-card .view-btn p {
+#main-featured-recipe .left .info-card .view-btn p {
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     font-weight: 600;
     margin-right: 13px;
 }
 
-#featured-recipe .right {
+#main-featured-recipe .right {
     width: 50%;
     background: url("images/20.png") center/cover no-repeat;
     border-radius: 0px 50px 50px 0px;
 }
 
-#featured-recipe .badge {
+#main-featured-recipe .badge {
     position: absolute;
     left: 585px;
     top: 40px;
@@ -200,22 +200,22 @@ header .nav a {
 
 /* Categories */
 
-#categories {
+#main-categories {
     padding: 100px 50px;
 }
 
-#categories .cat-info {
+#main-categories .cat-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#categories .cat-info h1 {
+#main-categories .cat-info h1 {
     font-size: 48px;
     font-weight: 600;
 }
 
-#categories a {
+#main-categories a {
     background: rgba(231, 250, 254, 1);
     padding: 18px 22px;
     border-radius: 15px;
@@ -224,14 +224,14 @@ header .nav a {
     font-weight: 600;
 }
 
-#categories .cat-container {
+#main-categories .cat-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 80px;
 }
 
-#categories .cat-container .cat-card {
+#main-categories .cat-container .cat-card {
     text-align: center;
     height: 180px;
     background: aliceblue;
@@ -239,7 +239,7 @@ header .nav a {
     border-radius: 20px;
 }
 
-#categories .cat-container .cat-card .cat-name {
+#main-categories .cat-container .cat-card .cat-name {
     display: flex;
     flex-direction: column;
     height: 50%;
@@ -247,49 +247,49 @@ header .nav a {
     justify-content: center;
 }
 
-#categories .cat-container .Breakfast {
+#main-categories .cat-container .Breakfast {
     background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
 }
 
-#categories .cat-container .Vegen {
+#main-categories .cat-container .Vegen {
     background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
 }
 
-#categories .cat-container .Meat {
+#main-categories .cat-container .Meat {
     background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
 }
 
-#categories .cat-container .Dessert {
+#main-categories .cat-container .Dessert {
     background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
 }
 
-#categories .cat-container .Lunch {
+#main-categories .cat-container .Lunch {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
 }
 
-#categories .cat-container .Chocolate {
+#main-categories .cat-container .Chocolate {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
 }
 
-#categories .cat-container .cat-card .cat-name p {
+#main-categories .cat-container .cat-card .cat-name p {
     font-weight: 600;
     font-size: 18px;
 }
 
 /* Recipes */
 
-#recipes {
+#main-recipes {
     width: 100%;
 }
 
-#recipes .heading-content {
+#main-recipes .heading-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#recipes .heading-content .recipes-heading {
+#main-recipes .heading-content .recipes-heading {
     font-size: 48px;
     font-weight: 700;
     color: rgba(0, 0, 0, 1);
@@ -298,7 +298,7 @@ header .nav a {
     margin-bottom: 20px;
 }
 
-#recipes .heading-content p {
+#main-recipes .heading-content p {
     width: 45rem;
     text-align: center;
     font-size: 16px;
@@ -308,7 +308,7 @@ header .nav a {
     line-height: 1.7;
 }
 
-#recipes .recipe-container {
+#main-recipes .recipe-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
@@ -316,7 +316,7 @@ header .nav a {
     gap: 2rem;
 }
 
-#recipes .recipe-container .recipe-card {
+#main-recipes .recipe-container .recipe-card {
     width: 400px;
     background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
     border-radius: 30px;
@@ -325,7 +325,7 @@ header .nav a {
     position: relative;
 }
 
-#recipes .recipe-card .green {
+#main-recipes .recipe-card .green {
     background: url("images/green-background.svg") center/cover no-repeat;
     height: 100%;
     display: flex;
@@ -334,12 +334,12 @@ header .nav a {
     align-items: center;
 }
 
-#recipes .recipe-card .green:hover img {
+#main-recipes .recipe-card .green:hover img {
     transform: none !important;
     cursor: unset
 }
 
-#recipes .recipe-card .green h3 {
+#main-recipes .recipe-card .green h3 {
     color: rgba(255, 255, 255, 1);
     font-family: 'Lobster', sans-serif;
     font-size: 24px;
@@ -388,30 +388,30 @@ header .nav a {
 
 /* Chef */
 
-#chef {
+#main-chef {
     display: flex;
     padding: 4rem;
 }
 
-#chef .left {
+#main-chef .left {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#chef .left .heading {
+#main-chef .left .heading {
     margin-bottom: 1.8rem;
 }
 
-#chef .left .heading .chef-heading {
+#main-chef .left .heading .chef-heading {
     color: rgba(0, 0, 0, 1);
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -1px;
 }
 
-#chef .left .chef-para {
+#main-chef .left .chef-para {
     font-size: 16px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
@@ -419,7 +419,7 @@ header .nav a {
     inline-size: 31rem;
 }
 
-#chef .left .chef-btn {
+#main-chef .left .chef-btn {
     background: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
     padding: 17px 34px;
@@ -431,13 +431,13 @@ header .nav a {
     margin-top: 4rem;
 }
 
-#chef .right {
+#main-chef .right {
     width: 50%;
 }
 
 /* Instagran */
 
-#instagram {
+#main-instagram {
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -445,7 +445,7 @@ header .nav a {
     background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
 }
 
-#instagram .insta-heading {
+#main-instagram .insta-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -453,14 +453,14 @@ header .nav a {
     margin-bottom: 5rem;
 }
 
-#instagram .insta-heading h1 {
+#main-instagram .insta-heading h1 {
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -2px;
     margin-bottom: 20px;
 }
 
-#instagram .insta-heading p {
+#main-instagram .insta-heading p {
     font-size: 16px;
     font-weight: 400;
     inline-size: 50rem;
@@ -469,12 +469,12 @@ header .nav a {
     line-height: 1.8rem;
 }
 
-#instagram .insta-img-container {
+#main-instagram .insta-img-container {
     display: flex;
     gap: 38px
 }
 
-#instagram .insta-btn {
+#main-instagram .insta-btn {
     display: flex;
     color: rgba(255, 255, 255, 1);
     background: rgba(0, 0, 0, 1);
@@ -484,7 +484,7 @@ header .nav a {
     margin-top: 5rem;
 }
 
-#instagram .insta-btn p {
+#main-instagram .insta-btn p {
     font-size: 14px;
     font-weight: 600;
     margin-right: 15px;
@@ -492,25 +492,25 @@ header .nav a {
 
 /* Cooking */
 
-#cooking {
+#main-cooking {
     padding: 9rem 5rem;
 }
 
-#cooking .cooking-heading {
+#main-cooking .cooking-heading {
     display: flex;
 }
 
-#cooking .cooking-heading .cooking-title {
+#main-cooking .cooking-heading .cooking-title {
     width: 50%;
 }
 
-#cooking .cooking-heading .cooking-title h1 {
+#main-cooking .cooking-heading .cooking-title h1 {
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -1px;
 }
 
-#cooking .cooking-heading p {
+#main-cooking .cooking-heading p {
     width: 50%;
     color: rgba(0, 0, 0, 0.6);
     font-size: 16px;
@@ -519,7 +519,7 @@ header .nav a {
     margin-top: 1.8rem;
 }
 
-#cooking .cooking-container {
+#main-cooking .cooking-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -528,36 +528,36 @@ header .nav a {
 }
 
 
-#cooking .cooking-container .cooking-card {
+#main-cooking .cooking-container .cooking-card {
     position: relative;
     height: 20rem;
 }
 
-#cooking .cooking-container .cooking-card .cooking-img img {
+#main-cooking .cooking-container .cooking-card .cooking-img img {
     border-radius: 15px;
 }
 
-#cooking .cooking-container .cooking-card .cooking-content h1 {
+#main-cooking .cooking-container .cooking-card .cooking-content h1 {
     font-size: 16px;
     font-weight: 600;
     padding: 1rem 0rem;
     line-height: 1.5rem;
 }
 
-#cooking .cooking-container .cooking-card .cooking-content .cooking-btn {
+#main-cooking .cooking-container .cooking-card .cooking-content .cooking-btn {
     display: flex;
     gap: 20px;
     position: absolute;
     bottom: 0;
 }
 
-#cooking .cooking-container .cooking-card .cooking-content .cooking-btn .btn {
+#main-cooking .cooking-container .cooking-card .cooking-content .cooking-btn .btn {
     display: flex;
     gap: 12px;
     align-items: center;
 }
 
-#cooking .cooking-container .cooking-card .cooking-content .cooking-btn .btn p {
+#main-cooking .cooking-container .cooking-card .cooking-content .cooking-btn .btn p {
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
 }
@@ -812,55 +812,55 @@ header .nav a {
     }
 
     /* featured */
-    #featured-recipe {
+    #main-featured-recipe {
         margin: 35px 20px;
     }
 
-    #featured-recipe .left {
+    #main-featured-recipe .left {
         width: 100%;
         padding: 35px;
     }
 
-    #featured-recipe .left h1 {
+    #main-featured-recipe .left h1 {
         font-size: 7vw;
         inline-size: 8em;
     }
 
-    #featured-recipe .left #para {
+    #main-featured-recipe .left #para {
         margin: 25px 0px 25px 0px;
     }
 
-    #featured-recipe .left .info-btn {
+    #main-featured-recipe .left .info-btn {
         margin-bottom: 7em;
     }
 
-    #featured-recipe .left .info-card .view-btn {
+    #main-featured-recipe .left .info-card .view-btn {
         padding: 15px 25px;
     }
 
-    #featured-recipe .right {
+    #main-featured-recipe .right {
         display: none;
     }
 
-    #featured-recipe .badge {
+    #main-featured-recipe .badge {
         display: none;
     }
 
     /* categories */
-    #categories {
+    #main-categories {
         padding: 5em 2em;
     }
 
-    #categories .cat-info h1 {
+    #main-categories .cat-info h1 {
         font-size: 40px;
     }
 
-    #categories a {
+    #main-categories a {
         font-size: 13px;
         padding: 16px 17px;
     }
 
-    #categories .cat-container {
+    #main-categories .cat-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1em;
@@ -868,30 +868,30 @@ header .nav a {
     }
 
     /* recipe */
-    #recipes .heading-content .recipes-heading {
+    #main-recipes .heading-content .recipes-heading {
         font-size: 35px;
     }
 
-    #recipes .heading-content p {
+    #main-recipes .heading-content p {
         width: 39rem;
         font-size: 14px;
     }
 
-    #recipes .recipe-container {
+    #main-recipes .recipe-container {
         grid-template-columns: repeat(2, 1fr);
         padding: 3rem;
     }
 
-    #recipes .recipe-card .green {
+    #main-recipes .recipe-card .green {
         height: 100%;
     }
 
-    #recipes .recipe-card .green h3 {
+    #main-recipes .recipe-card .green h3 {
         font-size: 20px;
         inline-size: 10rem;
     }
 
-    #recipes .recipe-container .recipe-card {
+    #main-recipes .recipe-container .recipe-card {
         width: 19em;
     }
 
@@ -900,50 +900,50 @@ header .nav a {
     }
 
     /* chef */
-    #chef {
+    #main-chef {
         padding: 0px 2em;
     }
 
-    #chef .left {
+    #main-chef .left {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    #chef .left .heading {
+    #main-chef .left .heading {
         font-size: 40px;
         margin-bottom: 2.3rem;
         text-align: center;
     }
 
-    #chef .left .heading .chef-heading {
+    #main-chef .left .heading .chef-heading {
         font-size: 40px;
     }
 
-    #chef .left .chef-para {
+    #main-chef .left .chef-para {
         width: 82%;
         text-align: center;
     }
 
-    #chef .right {
+    #main-chef .right {
         display: none;
     }
 
     /* instagram */
-    #instagram {
+    #main-instagram {
         padding: 3rem;
     }
 
-    #instagram .insta-heading h1 {
+    #main-instagram .insta-heading h1 {
         font-size: 37px;
     }
 
-    #instagram .insta-heading p {
+    #main-instagram .insta-heading p {
         inline-size: unset;
     }
 
-    #instagram .insta-img-container {
+    #main-instagram .insta-img-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
@@ -951,27 +951,27 @@ header .nav a {
     }
 
     /* cooking  */
-    #cooking {
+    #main-cooking {
         padding: 5rem 3rem;
     }
 
-    #cooking .cooking-heading {
+    #main-cooking .cooking-heading {
         display: block;
     }
 
-    #cooking .cooking-heading .cooking-title {
+    #main-cooking .cooking-heading .cooking-title {
         width: 100%;
     }
 
-    #cooking .cooking-heading p {
+    #main-cooking .cooking-heading p {
         width: 100%;
     }
 
-    #cooking .cooking-container {
+    #main-cooking .cooking-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #cooking .cooking-container .cooking-card .cooking-content h1 {
+    #main-cooking .cooking-container .cooking-card .cooking-content h1 {
         height: 5rem;
     }
 
@@ -1019,29 +1019,29 @@ header .nav a {
 
 @media screen and (max-width: 480px) {
 
-    #featured-recipe {
+    #main-featured-recipe {
         margin: 15px;
         border-radius: 20px;
     }
 
-    #featured-recipe .left {
+    #main-featured-recipe .left {
         padding: 2rem;
     }
 
-    #featured-recipe .left .hot {
+    #main-featured-recipe .left .hot {
         padding: 10px;
         width: 140px;
     }
 
-    #featured-recipe .left .hot img {
+    #main-featured-recipe .left .hot img {
         height: 20px;
     }
 
-    #featured-recipe .left .hot p {
+    #main-featured-recipe .left .hot p {
         font-size: 12px;
     }
 
-    #featured-recipe .left #para {
+    #main-featured-recipe .left #para {
         margin: 7px 0px 25px 0px;
         inline-size: 265px;
         line-height: 27px;
@@ -1049,117 +1049,117 @@ header .nav a {
 
 
 
-    #featured-recipe .left .info-btn .btn {
+    #main-featured-recipe .left .info-btn .btn {
         padding: 5px 10px;
     }
 
-    #featured-recipe .left .info-btn .btn img {
+    #main-featured-recipe .left .info-btn .btn img {
         height: 20px
     }
 
-    #featured-recipe .left .info-btn .btn p {
+    #main-featured-recipe .left .info-btn .btn p {
         font-size: 12px;
         margin-left: 10px;
     }
 
-    #featured-recipe .left .info-card .author-card img {
+    #main-featured-recipe .left .info-card .author-card img {
         margin-right: 8px;
         height: 39px;
     }
 
-    #featured-recipe .left .info-card .author-card .author {
+    #main-featured-recipe .left .info-card .author-card .author {
         font-size: 13px;
     }
 
-    #featured-recipe .left .info-card .author-card .date {
+    #main-featured-recipe .left .info-card .author-card .date {
         font-size: 10px;
     }
 
-    #featured-recipe .left .info-card .view-btn {
+    #main-featured-recipe .left .info-card .view-btn {
         padding: 12px 15px;
     }
 
-    #featured-recipe .left .info-card .view-btn p {
+    #main-featured-recipe .left .info-card .view-btn p {
         font-size: 10px;
     }
 
-    #featured-recipe .left .info-card .view-btn img {
+    #main-featured-recipe .left .info-card .view-btn img {
         height: 25px;
     }
 
-    #categories {
+    #main-categories {
         padding: 3em 2em;
     }
 
-    #categories .cat-info h1 {
+    #main-categories .cat-info h1 {
         font-size: 7vw;
     }
 
-    #categories a {
+    #main-categories a {
         font-size: 10px;
         padding: 15px 17px;
     }
 
-    #categories .cat-container {
+    #main-categories .cat-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 2em 1em;
 
     }
 
-    #categories .cat-container .cat-card {
+    #main-categories .cat-container .cat-card {
         height: 170px;
         width: 155px;
     }
 
 
-    #categories .cat-container .cat-card img {
+    #main-categories .cat-container .cat-card img {
         height: 5rem;
     }
 
-    #categories .cat-container .cat-card .cat-name {
+    #main-categories .cat-container .cat-card .cat-name {
         height: 40%;
     }
 
-    #categories .cat-container .cat-card .cat-name p {
+    #main-categories .cat-container .cat-card .cat-name p {
         font-size: 15px;
     }
 
-    #recipes .heading-content .recipes-heading {
+    #main-recipes .heading-content .recipes-heading {
         font-size: 7vw;
     }
 
-    #recipes .heading-content p {
+    #main-recipes .heading-content p {
         width: 20rem;
         font-size: 12px;
     }
 
-    #recipes .recipe-container {
+    #main-recipes .recipe-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 2rem;
     }
 
-    #recipes .recipe-container .recipe-card {
+    #main-recipes .recipe-container .recipe-card {
         height: 400px;
     }
 
-    #chef {
+    #main-chef {
         padding: 20px 2em;
     }
 
-    #chef .left .heading .chef-heading {
+    #main-chef .left .heading .chef-heading {
         font-size: 7vw;
     }
 
-    #chef .left .heading {
+    #main-chef .left .heading {
         margin-bottom: 2rem;
     }
 
-    #chef .left .chef-para {
+    #main-chef .left .chef-para {
         font-size: 14px;
         line-height: 1.1rem;
     }
 
-    #chef .left .chef-btn {
+    #main-chef .left .chef-btn {
         margin-top: 2rem;
         font-size: 12px;
         width: 8rem;
@@ -1167,42 +1167,42 @@ header .nav a {
 
     }
 
-    #instagram .insta-heading {
+    #main-instagram .insta-heading {
         margin-bottom: 3rem;
     }
 
-    #instagram .insta-heading h1 {
+    #main-instagram .insta-heading h1 {
         font-size: 7vw;
     }
 
-    #instagram .insta-heading p {
+    #main-instagram .insta-heading p {
         font-size: 14px;
         line-height: 25px;
     }
 
-    #instagram .insta-img-container {
+    #main-instagram .insta-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #cooking {
+    #main-cooking {
         padding: 3rem 2rem;
     }
 
-    #cooking .cooking-heading .cooking-title h1 {
+    #main-cooking .cooking-heading .cooking-title h1 {
         font-size: 7vw;
     }
 
-    #cooking .cooking-heading p {
+    #main-cooking .cooking-heading p {
         line-height: 24px;
         margin-top: 1.2rem;
         font-size: 14px;
     }
 
-    #cooking .cooking-container {
+    #main-cooking .cooking-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #cooking .cooking-container .cooking-card {
+    #main-cooking .cooking-container .cooking-card {
         width: 285px;
     }
 
