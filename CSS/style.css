@@ -149,22 +149,26 @@ header .nav a {
     justify-content: space-between;
 }
 
-#main-featured-recipe .left .info-card .author-card {
+#main-featured-recipe .left .info-card .author-card,
+.author-card {
     display: flex;
     align-items: center;
 }
 
-#main-featured-recipe .left .info-card .author-card img {
+#main-featured-recipe .left .info-card .author-card img,
+.author-card img {
     margin-right: 18px;
 }
 
-#main-featured-recipe .left .info-card .author-card .author {
+#main-featured-recipe .left .info-card .author-card .author,
+.author-card .author {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-#main-featured-recipe .left .info-card .author-card .date {
+#main-featured-recipe .left .info-card .author-card .date,
+.author-card .date {
     font-size: 14px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.6);
@@ -1047,8 +1051,6 @@ header .nav a {
         line-height: 27px;
     }
 
-
-
     #main-featured-recipe .left .info-btn .btn {
         padding: 5px 10px;
     }
@@ -1111,7 +1113,6 @@ header .nav a {
         width: 155px;
     }
 
-
     #main-categories .cat-container .cat-card img {
         height: 5rem;
     }
@@ -1164,7 +1165,6 @@ header .nav a {
         font-size: 12px;
         width: 8rem;
         padding: 16px 11px;
-
     }
 
     #main-instagram .insta-heading {
@@ -1288,13 +1288,169 @@ header .nav a {
         display: none;
     }
 
-
-
-
     .down {
         display: none;
     }
+}
 
+/*               */
+/* Recipe Page  */
+/*              */
+#recipe {
+    padding: 5em;
+}
 
+#recipe .recipe-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
 
+#recipe .recipe-heading .left {
+    display: grid;
+    gap: 3em;
+}
+
+#recipe .recipe-heading .left h2 {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.16rem;
+}
+
+#recipe .recipe-heading .left .time-container {
+    display: flex;
+    gap: 2em;
+}
+
+#recipe .recipe-heading .left .time-container .time {
+    display: flex;
+    align-items: center;
+    padding: 0em 1.5em;
+    gap: 1em;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#recipe .recipe-heading .left .time-container .time img {
+    height: 1.5rem;
+}
+
+#recipe .recipe-heading .left .time-container .time .time-info h5 {
+    font-weight: 500;
+    font-size: 0.75rem;
+    margin-bottom: 7px;
+    letter-spacing: 0.075rem;
+}
+
+#recipe .recipe-heading .left .time-container .time .time-info p {
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+#recipe .recipe-heading .right {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+#recipe .recipe-heading .right .icon-box {
+    background: #E7FAFE;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    height: 5em;
+    width: 5em;
+    position: relative;
+}
+
+#recipe .recipe-heading .right .icon-box::before {
+    content: attr(data-text);
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    bottom: -28px;
+    left: 20px;
+    color: #000;
+    letter-spacing: 0.075rem;
+}
+
+#recipe .video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recipe .video-container .video {
+    position: relative;
+    width: 51rem;
+    height: 37.5rem;
+}
+
+#recipe .video-container .video img:first-child {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+#recipe .video-container .video img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    translate: 22rem 15rem;
+}
+
+#recipe .video-container .nut-info {
+    width: 25rem;
+    height: 37.5rem;
+    background: rgba(231, 250, 254, 1);
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+#recipe .video-container .nut-info h3 {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -0.06rem;
+    margin-bottom: 1rem;
+}
+
+#recipe .video-container .nut-info .nut-detail {
+    height: 28rem;
+}
+
+#recipe .video-container .nut-info .nut-detail .infoblock {
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+#recipe .video-container .nut-info .nut-detail .infoblock h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: -0.045rem;
+}
+
+#recipe .video-container .nut-info .nut-detail .infoblock p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.045rem;
+}
+
+#recipe .video-container .nut-info .video-para {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+#recipe .para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgba(0, 0, 0, 0.60);
+    margin-top: 4rem;
 }
