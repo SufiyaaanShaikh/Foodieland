@@ -1455,6 +1455,7 @@ header .nav a {
     margin-top: 4rem;
 }
 
+/* Ingredients Section  */
 #recipe-ing {
     padding: 1em 5em 0em 5em;
     display: flex;
@@ -1623,7 +1624,7 @@ header .nav a {
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
 }
-
+Sauce Section 
 #sauce {
     padding: 0em 5em;
     display: flex;
