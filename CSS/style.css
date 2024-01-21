@@ -1185,7 +1185,7 @@ header .nav a {
     }
 
     #main-cooking {
-        padding: 3rem 2rem;
+        padding: 3rem 2rem !important;
     }
 
     #main-cooking .cooking-heading .cooking-title h1 {
@@ -1485,7 +1485,7 @@ header .nav a {
     position: relative;
     display: flex;
     align-items: center;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.04);;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.04);
     padding-top: 10px;
 }
 
@@ -1624,7 +1624,8 @@ header .nav a {
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
 }
-Sauce Section 
+
+/* Sauce Section  */
 #sauce {
     padding: 0em 5em;
     display: flex;
@@ -1641,4 +1642,57 @@ Sauce Section
     font-size: 24px;
     font-weight: 600;
     letter-spacing: -0.06rem;
+}
+
+/* Direction Section  */
+#direction {
+    width: 70%;
+    padding-left: 5em;
+}
+
+#direction h3 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.09rem;
+}
+
+#direction .dir-block {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.04);
+    padding: 40px 0px 40px 50px;
+    display: grid;
+    gap: 2em;
+}
+
+#direction .dir-block p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 27px;
+    inline-size: 50em;
+    letter-spacing: -0.02rem;
+}
+
+#direction .dir-block .block {
+    position: relative;
+}
+
+#direction .dir-block .block .container #dir-para {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+#direction .dir-block .block .container .checkmark {
+    left: -50px;
+}
+
+.recipe-cooking {
+    padding: 5em !important;
+}
+
+.recipe-cooking h2 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.09rem;
+    text-align: center;
 }
