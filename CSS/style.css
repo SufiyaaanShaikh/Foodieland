@@ -646,7 +646,7 @@ header .nav a {
 }
 
 #inbox .inbox-form .sub {
-    width: 27rem;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1820,7 +1820,7 @@ header .nav a {
 
 #blog .left .blog-card .img-blog {
     height: 13em;
-    width: 19em;
+    width: 26em;
 }
 
 #blog .left .blog-card .img-blog img {
@@ -1832,6 +1832,7 @@ header .nav a {
 
 #blog .left .blog-card .blog-content {
     display: grid;
+    width: 100%;
 }
 
 #blog .left .blog-card .blog-content h3 {
@@ -1845,7 +1846,8 @@ header .nav a {
     color: rgba(0, 0, 0, 0.6);
     font-size: 16px;
     line-height: 1.75rem;
-    inline-size: 31em;
+    /* inline-size: 31em; */
+    text-wrap: balance;
 }
 
 #blog .left .blog-card .blog-content .person {
