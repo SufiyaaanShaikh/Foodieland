@@ -44,7 +44,6 @@ header img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-
 header .nav a {
     padding: 0 20px;
     color: #000000;
@@ -669,7 +668,6 @@ header .nav a {
     height: 3rem;
 }
 
-
 #inbox .inbox-form .sub input[type="button"] {
     padding: 1.2rem 2.2rem;
     border-radius: 15px;
@@ -710,7 +708,6 @@ header .nav a {
     filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
 }
 
-
 #footer .footer-content .footer-logo p {
     font-size: 16px;
     font-weight: 400;
@@ -718,12 +715,10 @@ header .nav a {
     filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
 }
 
-
 #footer .footer-content .footer-nav {
     display: flex;
     gap: 3.5rem;
 }
-
 
 #footer .footer-content .footer-nav a {
     color: rgba(0, 0, 0, 1);
@@ -1414,12 +1409,12 @@ header .nav a {
 
 #recipe .video-container {
     display: flex;
-    justify-content: space-between;
+    gap: 3vw;
 }
 
 #recipe .video-container .video {
     position: relative;
-    width: 51rem;
+    width: 70%;
     height: 37.5rem;
 }
 
@@ -1435,10 +1430,11 @@ header .nav a {
     left: 0;
     top: 0;
     translate: 22rem 15rem;
+    display: none;
 }
 
 #recipe .video-container .nut-info {
-    width: 25rem;
+    width: 30%;
     height: 37.5rem;
     background: rgba(231, 250, 254, 1);
     border-radius: 30px;
