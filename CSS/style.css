@@ -1909,3 +1909,51 @@ header .nav a {
 /*               */
 /*  About Page  */
 /*             */
+#about {
+    display: flex;
+    padding: 5em;
+    gap: 3em;
+}
+
+#about h2 {
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 600;
+    text-align: left;
+}
+
+#about .left {
+    width: 50%;
+    height: 100%;
+}
+
+#about .left p {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    color: rgba(0,0,0,.6);
+    text-align: justify;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-wrap: balance;
+}
+
+#about button {
+    padding: 1.5rem 3.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 100%;
+    background:rgba(231, 249, 253, 1);
+}
+
+#about .right {
+    width: 50%;
+    height: 100%;
+}
+
+#about .right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
