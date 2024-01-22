@@ -1578,38 +1578,45 @@ header .nav a {
     transform: rotate(45deg);
 }
 
-#recipe-ing .o-recipe {
+#recipe-ing .o-recipe,
+.o-recipe {
     display: grid;
     grid-template-rows: 4em 9em 9em 9em;
 }
 
-#recipe-ing .o-recipe h3 {
+#recipe-ing .o-recipe h3,
+.o-recipe h3 {
     font-size: 32px;
     font-weight: 600;
 }
 
-#recipe-ing .o-recipe .o-recipe-card {
+#recipe-ing .o-recipe .o-recipe-card,
+.o-recipe .o-recipe-card {
     display: flex;
     gap: 1em;
 }
 
-#recipe-ing .o-recipe .o-recipe-card .img-block {
+#recipe-ing .o-recipe .o-recipe-card .img-block,
+.o-recipe .o-recipe-card .img-block {
     height: 7em;
     width: 11em;
 }
 
-#recipe-ing .o-recipe .o-recipe-card .img-block img {
+#recipe-ing .o-recipe .o-recipe-card .img-block img,
+.o-recipe .o-recipe-card .img-block img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
 
-#recipe-ing .o-recipe .o-recipe-card .card-content {
+#recipe-ing .o-recipe .o-recipe-card .card-content,
+.o-recipe .o-recipe-card .card-content {
     display: grid;
 }
 
-#recipe-ing .o-recipe .o-recipe-card .card-content h4 {
+#recipe-ing .o-recipe .o-recipe-card .card-content h4,
+.o-recipe .o-recipe-card .card-content h4 {
     font-size: 20px;
     font-weight: 600;
     inline-size: 9.8em;
@@ -1618,7 +1625,8 @@ header .nav a {
     margin-top: 20px;
 }
 
-#recipe-ing .o-recipe .o-recipe-card .card-content p {
+#recipe-ing .o-recipe .o-recipe-card .card-content p,
+.o-recipe .o-recipe-card .card-content p {
     font-weight: 500;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
@@ -1757,4 +1765,106 @@ header .nav a {
 
 #blog-heading .search button:hover {
     transform: scale(1.04);
+}
+
+/* Blog Section  */
+#blog {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 5em;
+}
+
+#blog .left {
+    display: grid;
+    gap: 2em;
+}
+
+#blog .left .blog-card {
+    display: flex;
+    gap: 2em;
+}
+
+#blog .left .blog-card .img-blog {
+    height: 13em;
+    width: 19em;
+}
+
+#blog .left .blog-card .img-blog img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#blog .left .blog-card .blog-content  {
+    display: grid;
+}
+#blog .left .blog-card .blog-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+}
+
+
+#blog .left .blog-card .blog-content p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 1.75rem;
+    inline-size: 31em;
+}
+
+#blog .left .blog-card .blog-content .person {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#blog .left .blog-card .blog-content .person .name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#blog .left .blog-card .blog-content .person .name h5 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02rem;
+    margin-right: 2em;
+}
+
+#blog .left .blog-card .blog-content .person .date {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#blog .o-recipe .ads {
+    margin-top: 3em;
+}
+
+#blog ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 1 / 3 / 3;
+    height: 4em;
+    gap: 1em;
+    margin-top: 4em;
+}
+
+#blog ul button:first-child {
+    background: #000000;
+    color: #ffffff;
+}
+
+#blog ul button {
+    height: 100%;
+    width: 3.5em;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
 }
