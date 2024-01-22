@@ -1696,3 +1696,65 @@ header .nav a {
     letter-spacing: -0.09rem;
     text-align: center;
 }
+
+/*               */
+/*  Blog Page   */
+/*             */
+
+#blog-heading {
+    display: grid;
+    place-items: center;
+    padding: 5em 0em 1em 0em;
+    gap: 2em;
+}
+
+#blog-heading h2 {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.16rem;
+}
+
+#blog-heading p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#blog-heading .search {
+    border: 2px solid rgba(0, 0, 0, 0.04);
+    width: 44em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    border-radius: 20px;
+    padding: 0em 0.5em 0em 2em;
+    margin-top: 3em;
+}
+
+#blog-heading .search input[type="text"] {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+}
+
+#blog-heading .search button {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.0175rem;
+    height: 4.3em;
+    width: 14.4em;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+#blog-heading .search button:hover {
+    transform: scale(1.04);
+}
