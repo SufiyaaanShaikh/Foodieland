@@ -197,7 +197,7 @@ header .nav a {
 
 #main-featured-recipe .badge {
     position: absolute;
-    left: 585px;
+    left: 44%;
     top: 40px;
 }
 
@@ -935,6 +935,9 @@ header .nav a {
     .recipe-container .recipe-card .recipe-img img {
         width: 100%;
     }
+    .recipe-container .recipe-card .recipe-content h2 {
+        font-size: 20px;
+    }
 
     /* chef */
     #main-chef {
@@ -1174,6 +1177,9 @@ header .nav a {
 
     #main-recipes .recipe-container .recipe-card {
         height: 400px;
+    }
+    .recipe-container .recipe-card .recipe-content h2 {
+        font-size: 18px;
     }
 
     #main-chef {
