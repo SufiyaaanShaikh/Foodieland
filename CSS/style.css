@@ -1378,13 +1378,13 @@ header .nav a {
 /* Recipe Page  */
 /*              */
 #recipe {
-  padding: 5em;
+  padding: 3em 50px;
 }
 
 #recipe .recipe-heading {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 
 #recipe .recipe-heading .left {
@@ -1543,7 +1543,7 @@ header .nav a {
 
 /* Ingredients Section  */
 #recipe-ing {
-  padding: 1em 5em 0em 5em;
+  padding: 3em 50px;
   display: flex;
   justify-content: space-between;
   gap: 2em;
@@ -1720,7 +1720,7 @@ header .nav a {
 
 /* Sauce Section  */
 #sauce {
-  padding: 0em 5em;
+  padding: 0em 50px;
   display: flex;
   justify-content: space-between;
   gap: 2em;
@@ -1740,7 +1740,7 @@ header .nav a {
 /* Direction Section  */
 #direction {
   width: 70%;
-  padding-left: 5em;
+  padding-left: 50px;
 }
 
 #direction h3 {
@@ -1777,10 +1777,6 @@ header .nav a {
 
 #direction .dir-block .block .container .checkmark {
   left: -50px;
-}
-
-.recipe-cooking {
-  padding: 5em !important;
 }
 
 .recipe-cooking h2 {
