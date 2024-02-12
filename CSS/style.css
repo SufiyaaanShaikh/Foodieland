@@ -2206,7 +2206,7 @@ header .nav a {
 /*             */
 #about {
   display: flex;
-  padding: 5em;
+  padding: 3em 50px;
   gap: 3em;
 }
 
