@@ -40,7 +40,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 42px 60px;
+  padding: 37px 50px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -56,8 +56,10 @@ header .nav a {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.social a {
-  margin: 0px 15px;
+.social  {
+  display: flex;
+  align-items: center;
+  gap: 2em;
 }
 
 .social img {
@@ -71,7 +73,7 @@ header .nav a {
 /* Featured-Recipe */
 
 #main-featured-recipe {
-  margin: 35px 75px;
+  margin: 3em 50px;
   border-radius: 50px;
   display: flex;
   position: relative;
@@ -207,7 +209,7 @@ header .nav a {
 /* Categories */
 
 #main-categories {
-  padding: 100px 50px;
+  padding: 3em 50px;
 }
 
 #main-categories .cat-info {
@@ -233,8 +235,8 @@ header .nav a {
 #main-categories .cat-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 80px;
+  justify-content: space-between;
+  margin-top: 55px;
 }
 
 #main-categories .cat-container .cat-card {
@@ -310,6 +312,7 @@ header .nav a {
 
 #main-recipes {
   width: 100%;
+  padding: 3em 50px;
 }
 
 #main-recipes .heading-content {
@@ -342,8 +345,8 @@ header .nav a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
-  padding: 5rem;
-  gap: 2rem;
+  padding-top: 55px;
+  gap: 2.3rem;
 }
 
 #main-recipes .recipe-container .recipe-card {
@@ -424,7 +427,7 @@ header .nav a {
 
 #main-chef {
   display: flex;
-  padding: 4rem;
+  padding: 3rem 50px;
 }
 
 #main-chef .left {
@@ -479,7 +482,7 @@ header .nav a {
 /* Instagran */
 
 #main-instagram {
-  padding: 5rem;
+  padding: 3rem 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -491,7 +494,7 @@ header .nav a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 55px;
 }
 
 #main-instagram .insta-heading h1 {
@@ -512,7 +515,7 @@ header .nav a {
 
 #main-instagram .insta-img-container {
   display: grid;
-  gap: 38px;
+  gap: 2.3em;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
 }
@@ -535,7 +538,7 @@ header .nav a {
   padding: 1rem 30px;
   border-radius: 15px;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 55px;
 }
 
 #main-instagram .insta-btn p {
@@ -547,7 +550,7 @@ header .nav a {
 /* Cooking */
 
 #main-cooking {
-  padding: 9rem 5rem;
+  padding: 3rem 50px;
 }
 
 #main-cooking .cooking-heading {
@@ -578,7 +581,7 @@ header .nav a {
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
   gap: 2.3rem;
-  padding-top: 4rem;
+  padding-top: 55px;
 }
 
 #main-cooking .cooking-container .cooking-card {
@@ -643,7 +646,7 @@ header .nav a {
 /* Inbox */
 #inbox {
   background: rgba(231, 249, 253, 1);
-  margin: 4rem;
+  margin: 3rem 50px;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -730,7 +733,7 @@ header .nav a {
 /* Footer  */
 
 #footer {
-  padding: 4rem;
+  padding: 3rem 50px;
 }
 
 #footer .footer-content {
