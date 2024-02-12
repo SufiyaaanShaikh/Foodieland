@@ -1302,16 +1302,18 @@ header .nav a {
   }
 
   #inbox .inbox-form .sub {
-    width: 19rem;
+    width: 90%;
   }
 
   #inbox .inbox-form .sub input[type="email"] {
     width: 10rem;
     height: 3rem;
+    font-size: 12px;
   }
 
   #inbox .inbox-form .sub input[type="button"] {
-    padding: 0.6rem 1.2rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 10px;
   }
 
   #inbox .inbox-form .left {
