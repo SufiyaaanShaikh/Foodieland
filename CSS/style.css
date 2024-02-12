@@ -964,9 +964,9 @@ header .nav a {
     inline-size: 10rem;
   }
 
-  #main-recipes .recipe-container .recipe-card {
+  /* #main-recipes .recipe-container .recipe-card {
     width: 19em;
-  }
+  } */
 
   .recipe-container .recipe-card .recipe-img img {
     width: 100%;
@@ -2194,7 +2194,8 @@ header .nav a {
     border-radius: 10px;
     font-size: 15px;
   }
-  #recipe-ing .o-recipe .o-recipe-card .card-content h4,   .o-recipe .o-recipe-card .card-content h4 {
+  #recipe-ing .o-recipe .o-recipe-card .card-content h4,
+  .o-recipe .o-recipe-card .card-content h4 {
     inline-size: 14.1em;
   }
 }
@@ -2278,3 +2279,8 @@ header .nav a {
     padding: 1.4rem 2.2rem;
   }
 }
+
+/*                */
+/*  Contact Page */
+/*              */
+
