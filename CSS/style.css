@@ -1958,7 +1958,7 @@ header .nav a {
 #blog-heading {
   display: grid;
   place-items: center;
-  padding: 5em 0em 1em 0em;
+  padding:3em 50px;
   gap: 2em;
 }
 
@@ -2018,7 +2018,7 @@ header .nav a {
 #blog {
   display: grid;
   grid-template-columns: 70% 30%;
-  padding: 5em;
+  padding: 3em 50px;
 }
 
 #blog .left {
@@ -2103,7 +2103,7 @@ header .nav a {
   grid-area: 2 / 1 / 3 / 3;
   height: 4em;
   gap: 1em;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 #blog ul button:first-child {
