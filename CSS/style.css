@@ -944,6 +944,9 @@ header .nav a {
   }
 
   /* recipe */
+  #main-recipes {
+    padding: 3rem;
+  }
   #main-recipes .heading-content .recipes-heading {
     font-size: 35px;
   }
@@ -955,7 +958,7 @@ header .nav a {
 
   #main-recipes .recipe-container {
     grid-template-columns: repeat(2, 1fr);
-    padding: 3rem;
+   
   }
 
   #main-recipes .recipe-card .green {
@@ -1200,7 +1203,10 @@ header .nav a {
   #main-categories .cat-container .cat-card .cat-name p {
     font-size: 15px;
   }
-
+  #main-recipes {
+    padding: 2rem;
+  }
+  
   #main-recipes .heading-content .recipes-heading {
     font-size: 7vw;
   }
@@ -1212,7 +1218,6 @@ header .nav a {
 
   #main-recipes .recipe-container {
     grid-template-columns: repeat(1, 1fr);
-    padding: 2rem;
   }
 
   #main-recipes .recipe-container .recipe-card {
