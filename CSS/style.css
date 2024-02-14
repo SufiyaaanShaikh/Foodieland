@@ -1696,7 +1696,8 @@ header .nav a {
 #recipe-ing .o-recipe,
 .o-recipe {
   display: grid;
-  grid-template-rows: 4em 9em 9em 9em;
+  grid-template-rows: 3em 7em 7em 7em;
+  gap: 2em;
 }
 
 #recipe-ing .o-recipe h3,
@@ -1728,6 +1729,7 @@ header .nav a {
 #recipe-ing .o-recipe .o-recipe-card .card-content,
 .o-recipe .o-recipe-card .card-content {
   display: grid;
+  gap: 1em;
 }
 
 #recipe-ing .o-recipe .o-recipe-card .card-content h4,
@@ -1818,7 +1820,7 @@ header .nav a {
 
 @media screen and (max-width: 768px) {
   #recipe {
-    padding: 2em;
+    padding: 35px 30px;
   }
 
   #recipe .recipe-heading {
@@ -1836,6 +1838,7 @@ header .nav a {
 
   #recipe .video-container {
     grid-template-columns: auto;
+    gap: 2em;
   }
 
   #recipe .video-container .nut-info {
@@ -1849,22 +1852,22 @@ header .nav a {
   #recipe-ing {
     display: grid;
     justify-content: normal;
-    padding: 0em 3em;
+    padding: 35px 30px;
   }
 
   #sauce {
     display: grid;
     justify-content: normal;
-    padding: 2em 3em;
+    padding: 35px 30px;
   }
 
   #sauce .left {
-    margin-top: 2em;
+    margin-top: unset;
   }
 
   #direction {
     width: 100%;
-    padding-left: 3em;
+    padding: 35px 30px;
   }
 
   #direction .dir-block {
