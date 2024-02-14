@@ -2184,7 +2184,7 @@ header .nav a {
 }
 @media screen and (max-width: 480px) {
   #blog-heading {
-    padding: 3em 1em;
+    padding: 2em 20px;
   }
   #blog-heading h2 {
     letter-spacing: -0.06rem;
@@ -2193,11 +2193,13 @@ header .nav a {
   #blog-heading p {
     font-size: 13px;
   }
+
   #blog-heading .search {
     height: 3.7em;
     border-radius: 15px;
     padding: 0em 0.5em 0em 0.8em;
     margin-top: 1.5em;
+    width: 100%;
   }
   #blog-heading .search input[type="text"] {
     font-size: 11px;
@@ -2208,7 +2210,7 @@ header .nav a {
     border-radius: 12px;
   }
   #blog {
-    padding: 1em;
+    padding: 2em 20px;
     grid-template-columns: 100%;
   }
   #blog .left .blog-card {
@@ -2234,6 +2236,9 @@ header .nav a {
     width: 2.4em;
     border-radius: 10px;
     font-size: 15px;
+  }
+  #blog .o-recipe .ads img {
+    width: 100%;
   }
   #recipe-ing .o-recipe .o-recipe-card .card-content h4,
   .o-recipe .o-recipe-card .card-content h4 {
