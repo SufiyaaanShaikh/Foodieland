@@ -1488,12 +1488,11 @@ header .nav a {
 #recipe .video-container {
   display: grid;
   gap: 3vw;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 65% 31.9%;
 }
 
 #recipe .video-container .video {
   position: relative;
-  /* width: 70%; */
   height: 37.5rem;
 }
 
@@ -1513,7 +1512,6 @@ header .nav a {
 }
 
 #recipe .video-container .nut-info {
-  /* width: 30%; */
   height: 37.5rem;
   background: rgba(231, 250, 254, 1);
   border-radius: 30px;
@@ -1528,10 +1526,6 @@ header .nav a {
   letter-spacing: -0.06rem;
   margin-bottom: 1rem;
 }
-
-/* #recipe .video-container .nut-info .nut-detail {
-  height: 28rem;
-} */
 
 #recipe .video-container .nut-info .nut-detail .infoblock {
   display: flex;
@@ -2102,7 +2096,6 @@ header .nav a {
   color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
   line-height: 1.75rem;
-  text-wrap: balance;
 }
 
 #blog .left .blog-card .blog-content .person {
@@ -2167,7 +2160,7 @@ header .nav a {
 }
 @media screen and (max-width: 768px) {
   #blog-heading {
-    padding: 5em 3em 1em 3em;
+    padding: 35px 30px;
   }
   #blog-heading .search {
     width: 80%;
@@ -2176,7 +2169,7 @@ header .nav a {
     width: 35%;
   }
   #blog {
-    padding: 3em;
+    padding: 35px 30px;
   }
   #blog .blog-res {
     grid-area: 3 / 1 / 4 / 3;
@@ -2184,6 +2177,9 @@ header .nav a {
   }
   #blog ul {
     grid-area: 2 / 1 / 3 / 3;
+  }
+  #blog .o-recipe .ads img {
+    width: unset;
   }
 }
 @media screen and (max-width: 480px) {
