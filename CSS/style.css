@@ -42,6 +42,11 @@ header {
   justify-content: space-between;
   padding: 37px 50px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 4;
+  background: #fff;
+  width: 100%;
+  top: 0;
 }
 
 header img {
@@ -73,7 +78,7 @@ header .nav a {
 /* Featured-Recipe */
 
 #main-featured-recipe {
-  margin: 3em 50px;
+  margin: 9em 50px 3em;
   border-radius: 50px;
   display: flex;
   position: relative;
@@ -826,7 +831,6 @@ header .nav a {
 @media screen and (max-width: 768px) {
   header {
     padding: 30px;
-    position: relative;
   }
 
   header .header-logo img {
@@ -889,7 +893,7 @@ header .nav a {
 
   /* featured */
   #main-featured-recipe {
-    margin: 35px 30px;
+    margin: 7em 30px 35px;
     border-radius: 35px;
   }
 
@@ -1114,7 +1118,7 @@ header .nav a {
 
   /* featured */
   #main-featured-recipe {
-    margin: 2em 20px;
+    margin: 6em 20px 2em;
     border-radius: 20px;
   }
 
@@ -1408,7 +1412,7 @@ header .nav a {
 /* Recipe Page  */
 /*              */
 #recipe {
-  padding: 3em 50px;
+  padding: 9em 50px 3em;
 }
 
 #recipe .recipe-heading {
@@ -1819,7 +1823,7 @@ header .nav a {
 
 @media screen and (max-width: 768px) {
   #recipe {
-    padding: 35px 30px;
+    padding: 7em 30px 35px;
   }
 
   #recipe .recipe-heading {
@@ -1893,7 +1897,7 @@ header .nav a {
 @media screen and (max-width: 480px) {
   /* Recipe  */
   #recipe {
-    padding: 2em 20px;
+    padding: 6em 20px 2em;
   }
   #recipe .recipe-heading .left h2 {
     letter-spacing: -0.06rem;
@@ -2001,7 +2005,7 @@ header .nav a {
 #blog-heading {
   display: grid;
   place-items: center;
-  padding: 3em 50px;
+  padding: 9em 50px 3em;
   gap: 2em;
 }
 
@@ -2165,7 +2169,7 @@ header .nav a {
 }
 @media screen and (max-width: 768px) {
   #blog-heading {
-    padding: 35px 30px;
+    padding: 7em 30px 35px;
   }
   #blog-heading .search {
     width: 80%;
@@ -2189,7 +2193,7 @@ header .nav a {
 }
 @media screen and (max-width: 480px) {
   #blog-heading {
-    padding: 2em 20px;
+    padding: 6em 20px 2em;
   }
   #blog-heading h2 {
     letter-spacing: -0.06rem;
@@ -2256,7 +2260,7 @@ header .nav a {
 /*             */
 #about {
   display: flex;
-  padding: 3em 50px;
+  padding: 9em 50px 3em;
   gap: 3em;
 }
 
@@ -2305,7 +2309,7 @@ header .nav a {
 @media screen and (max-width: 768px) {
   #about {
     display: grid;
-    padding: 35px 30px;
+    padding: 7em 30px 35px;
   }
   #about .left {
     width: 100%;
@@ -2316,7 +2320,7 @@ header .nav a {
 }
 @media screen and (max-width: 480px) {
   #about {
-    padding: 2em 20px;
+    padding: 6em 20px 2em;
   }
   #about h2 {
     font-size: 2em;
