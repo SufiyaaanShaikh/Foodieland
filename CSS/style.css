@@ -2376,7 +2376,7 @@ header .nav a {
 
 #contact .c-block form {
   display: grid;
-  grid-template-columns: 50% 50%;
+  /* grid-template-columns: 50% 50%; */
   grid-template-rows: 3em 3em 10em 0em;
   gap: 2.5em 1.5em;
 }
@@ -2398,10 +2398,10 @@ header .nav a {
 }
 
 #contact .c-block form .block:nth-child(5) {
-  grid-area: 3 / 1 / 5 / 3; 
+  grid-area: 3 / 1 / 5 / 3;
 }
-#contact .c-block form button{
-  grid-area: 5 / 1 / 6 / 2; 
+#contact .c-block form button {
+  grid-area: 5 / 1 / 6 / 2;
 }
 
 #contact .c-block form .block p {
@@ -2413,20 +2413,22 @@ header .nav a {
   letter-spacing: 1px;
 }
 
-#contact .c-block form .block input, #contact .c-block form .block  textarea, #contact .c-block form .block select {
+#contact .c-block form .block input,
+#contact .c-block form .block textarea,
+#contact .c-block form .block select {
   border: 2px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 100%;
   border-radius: 15px;
   resize: none;
-  padding-left:1em ;
+  padding-left: 1em;
   color: rgba(0, 0, 0, 0.6);
 }
 textarea {
   padding-top: 15px;
 }
 
-#contact .c-block form .block input::placeholder, 
+#contact .c-block form .block input::placeholder,
 #contact .c-block form .block textarea::placeholder {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
@@ -2446,4 +2448,36 @@ textarea {
   border-radius: 15px;
   font-size: 16px;
   font-weight: 600;
-} 
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    padding: 7em 30px 35px;
+  }
+  #contact .c-block {
+    display: block;
+  }
+  #contact .c-block .left {
+    text-align: center;
+  }
+  #contact .c-block .left img {
+    width: auto;
+  }
+  #contact .c-block form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  #contact {
+    padding: 6em 20px 2em;
+  }
+  #contact h2 {
+    font-size: 40px;
+    margin-bottom: 55px;
+  }
+  #contact .c-block .left {
+    padding: unset;
+    overflow-x: hidden;
+  }
+}
