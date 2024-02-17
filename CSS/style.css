@@ -2455,7 +2455,9 @@ textarea {
     padding: 7em 30px 35px;
   }
   #contact .c-block {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
   }
   #contact .c-block .left {
     text-align: center;
@@ -2479,5 +2481,9 @@ textarea {
   #contact .c-block .left {
     padding: unset;
     overflow-x: hidden;
+  }
+  #contact .c-block form .block {
+    height: 3em;
+
   }
 }
