@@ -15,7 +15,8 @@
   transition: all 0.2s ease-in-out;
 }
 
-body,html {
+body,
+html {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -2340,3 +2341,109 @@ header .nav a {
 /*                */
 /*  Contact Page */
 /*              */
+#contact {
+  padding: 9em 50px 3em;
+  display: grid;
+  place-items: center;
+}
+
+#contact h2 {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+#contact .c-block {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 30% 66%;
+  gap: 2em;
+}
+
+#contact .c-block .left {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+  padding: 0em 30px;
+  border-radius: 30px;
+}
+
+#contact .c-block .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#contact .c-block form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 3em 3em 10em 0em;
+  gap: 2.5em 1.5em;
+}
+
+#contact .c-block form .block:first-child {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#contact .c-block form .block:nth-child(2) {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+#contact .c-block form .block:nth-child(3) {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+#contact .c-block form .block:nth-child(4) {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+#contact .c-block form .block:nth-child(5) {
+  grid-area: 3 / 1 / 5 / 3; 
+}
+#contact .c-block form button{
+  grid-area: 5 / 1 / 6 / 2; 
+}
+
+#contact .c-block form .block p {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+#contact .c-block form .block input, #contact .c-block form .block  textarea, #contact .c-block form .block select {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  resize: none;
+  padding-left:1em ;
+  color: rgba(0, 0, 0, 0.6);
+}
+textarea {
+  padding-top: 15px;
+}
+
+#contact .c-block form .block input::placeholder, 
+#contact .c-block form .block textarea::placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#contact .c-block form .block select option {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#contact .c-block form button {
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  width: 40%;
+  height: 4em;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+} 
