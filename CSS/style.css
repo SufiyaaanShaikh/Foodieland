@@ -2425,7 +2425,7 @@ header .nav a {
   color: rgba(0, 0, 0, 0.6);
 }
 textarea {
-  padding-top: 15px;
+  padding-top: 15px !important;
 }
 
 #contact .c-block form .block input::placeholder,
