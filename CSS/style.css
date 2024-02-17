@@ -2448,6 +2448,7 @@ textarea {
   border-radius: 15px;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -2463,7 +2464,7 @@ textarea {
     text-align: center;
   }
   #contact .c-block .left img {
-    width: auto;
+    width: 100%;
   }
   #contact .c-block form {
     display: flex;
@@ -2484,6 +2485,5 @@ textarea {
   }
   #contact .c-block form .block {
     height: 3em;
-
   }
 }
