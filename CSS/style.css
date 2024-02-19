@@ -2424,6 +2424,9 @@ header .nav a {
   padding: 0em 1em;
   color: rgba(0, 0, 0, 0.6);
 }
+#contact .c-block form .block select  {
+  cursor: pointer;
+}
 textarea {
   padding-top: 15px !important;
 }
@@ -2464,11 +2467,11 @@ textarea {
     text-align: center;
   }
   #contact .c-block .left img {
-    width: 100%;
+    width: 50%;
   }
   #contact .c-block form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 480px) {
